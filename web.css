@@ -28,3 +28,10 @@ nav.Portfolio ul li a:hover {
   color: #ffffff;
   transform: translateY(-2px);
 }
+
+logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-decoration: none;
+}
