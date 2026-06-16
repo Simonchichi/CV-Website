@@ -29,8 +29,16 @@ nav.Portfolio ul li a:hover {
   transform: translateY(-2px);
 }
 
-logo {
-  font-size: 1.2rem;
+nav.Portfolio {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+span.Logo {
+  font-size: 1.4rem;
   font-weight: bold;
   color: #1a1a1a;
   text-decoration: none;
