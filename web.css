@@ -18,8 +18,8 @@ nav.Portfolio ul li a {
   font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
-  color: #1a1a1a;
-  background-color: #9b9b9b;
+  color: #ffffff;
+  background-color: #5ab5b2;
   display: inline-block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -27,8 +27,7 @@ nav.Portfolio ul li a {
 }
 
 nav.Portfolio ul li a:hover {
-  background-color: #4c555f;
-  color: #ffffff;
+  background-color: #418e8b;
   transform: translateY(-2px);
 }
 
@@ -109,14 +108,14 @@ a.btn-primary {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-  background-color: #4c555f;
+  background-color: #418e8b;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
 }
 
 a.btn-primary:hover {
-  background-color: #1a1a1a;
+  background-color: #2f706e;
   transform: translateY(-2px);
 }
 
