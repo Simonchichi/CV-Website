@@ -1,3 +1,4 @@
+/* Style for the navigation bar and buttons*/
 nav.Portfolio ul {
   display: flex;
   flex-direction: row;
@@ -12,12 +13,13 @@ nav.Portfolio ul li {
   display: inline-block;
 }
 
+/* Style for thebuttons*/
 nav.Portfolio ul li a {
   font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
   color: #1a1a1a;
-  background-color: #e0e0e0;
+  background-color: #9b9b9b;
   display: inline-block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -38,6 +40,7 @@ nav.Portfolio {
   text-align: center;
 }
 
+/* Style for the logo (Simon Hagman) */
 span.Logo {
   display: inline-block;
   font-size: 1.4rem;
@@ -47,12 +50,14 @@ span.Logo {
   margin-bottom: 1.5rem;
 }
 
+/* Style for the main content */
 body {
   margin: 0rem;
   padding: 1rem;
   font-family: sans-serif;
 }
 
+/* Style for the introduction heading */
 h1.Introduction {
   font-size: 2.2rem;
   font-weight: bold;
@@ -65,6 +70,7 @@ h1.Introduction {
   margin: 2.5rem auto 1.5rem auto;
 }
 
+/* Style for the welcome message and philosophy sections */
 p.Welcome {
   font-size: 1.2rem;
   color: #1a1a1a;
@@ -83,6 +89,7 @@ p.Philosophy {
   margin: 0rem auto 2rem auto;
 }
 
+/* Style for the previous projects section */
 h2.PreviousProjects {
   font-size: 1.2rem;
   color: #1a1a1a;
@@ -92,6 +99,7 @@ h2.PreviousProjects {
   margin: 0rem auto 2rem auto;
 }
 
+/* Style for the bottom button*/
 a.btn-primary {
   display: inline-block;
   justify-content: center;
@@ -118,7 +126,7 @@ a.btn-primary:hover {
   gap: 1.5rem;
   margin-top: 2rem;
 }
-
+/* Style for the background image */
 .Ice {
   position: fixed;
   top: 0;
