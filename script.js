@@ -1,4 +1,4 @@
-const container = document.querySelector(".lucas-container"); //Ändra på namnet den har
+const container = document.querySelector(".Ice");
 
 window.addEventListener("scroll", () => {
   const distance = window.scrollY;

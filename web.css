@@ -118,3 +118,17 @@ a.btn-primary:hover {
   gap: 1.5rem;
   margin-top: 2rem;
 }
+
+.Ice {
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.Ice img {
+  max-width: 400px;
+  height: auto;
+}
