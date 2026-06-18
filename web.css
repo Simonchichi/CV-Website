@@ -1,6 +1,7 @@
 nav.Portfolio ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 1.5rem;
   list-style: none;
   padding: 0;
@@ -32,8 +33,9 @@ nav.Portfolio ul li a:hover {
 nav.Portfolio {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 1rem 0rem;
+  text-align: center;
 }
 
 span.Logo {
@@ -61,4 +63,58 @@ h1.Introduction {
   max-width: 800px;
   text-align: center;
   margin: 2.5rem auto 1.5rem auto;
+}
+
+p.Welcome {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+}
+
+p.Philosophy {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+}
+
+h2.PreviousProjects {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+}
+
+a.btn-primary {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4c555f;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+a.btn-primary:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-2px);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
