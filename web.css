@@ -1,3 +1,10 @@
+/* font applies everywhere now */
+body {
+  margin: 0rem;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
 /* Style for the navigation bar and buttons*/
 nav.Portfolio ul {
   display: flex;
@@ -47,13 +54,6 @@ span.Logo {
   color: #1a1a1a;
   text-decoration: none;
   margin-bottom: 1.5rem;
-}
-
-/* Style for the main content */
-body {
-  margin: 0rem;
-  padding: 1rem;
-  font-family: sans-serif;
 }
 
 /* Style for the introduction heading */
@@ -131,4 +131,24 @@ a.btn-primary:hover {
   color: #666666;
   text-align: center;
   margin-top: 2rem;
+}
+
+.Intro {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+}
+
+.AboutMe {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+  margin: 0rem auto 2rem auto;
 }
