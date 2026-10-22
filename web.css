@@ -9,8 +9,9 @@ body {
 nav.Portfolio ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 0.75rem 1rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -121,8 +122,9 @@ a.btn-primary:hover {
 
 .button-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
@@ -150,22 +152,30 @@ a.btn-primary:hover {
   margin: 0rem auto 2rem auto;
 }
 
-/* 1. This "switch" triggers only on screens 768px wide or smaller */
-@media (max-width: 768px) {
-  /* 2. Allows navigation links to wrap into rows instead of breaking the screen */
-  nav.Portfolio ul {
-    flex-wrap: wrap;
-    justify-content: center;
+@media (max-width: 600px) {
+  body {
+    padding: 0.75rem;
   }
 
-  /* 3. Forces side-by-side action buttons to stack safely into a column */
-  .button-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* 4. Scales down the giant desktop font sizes so they match a phone screen */
   h1.Introduction {
     font-size: 1.6rem;
+  }
+
+  p.Welcome,
+  p.Philosophy,
+  h2.PreviousProjects,
+  .Intro,
+  .AboutMe,
+  .contact,
+  .experience,
+  .coffee,
+  .ghost,
+  .runclub {
+    font-size: 1rem;
+  }
+
+  nav.Portfolio ul li a {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
   }
 }
