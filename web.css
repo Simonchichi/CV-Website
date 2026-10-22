@@ -133,66 +133,13 @@ a.btn-primary:hover {
   margin-top: 2rem;
 }
 
-.Intro {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  line-height: 1.6;
-  max-width: 800px;
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-}
-
-.AboutMe {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  line-height: 1.6;
-  max-width: 800px;
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-}
-
-.contact {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  line-height: 1.6;
-  max-width: 800px;
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-}
-
-.experience {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  line-height: 1.6;
-  max-width: 800px;
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-}
-
-.coffee {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  line-height: 1.6;
-  max-width: 800px;
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-}
-
-.ghost {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  line-height: 1.6;
-  max-width: 800px;
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-}
-
+/* Grouped Selector */
+.Intro,
+.AboutMe,
+.contact,
+.experience,
+.coffee,
+.ghost,
 .runclub {
   font-size: 1.2rem;
   font-weight: bold;
@@ -201,4 +148,24 @@ a.btn-primary:hover {
   max-width: 800px;
   text-align: center;
   margin: 0rem auto 2rem auto;
+}
+
+/* 1. This "switch" triggers only on screens 768px wide or smaller */
+@media (max-width: 768px) {
+  /* 2. Allows navigation links to wrap into rows instead of breaking the screen */
+  nav.Portfolio ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* 3. Forces side-by-side action buttons to stack safely into a column */
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* 4. Scales down the giant desktop font sizes so they match a phone screen */
+  h1.Introduction {
+    font-size: 1.6rem;
+  }
 }
